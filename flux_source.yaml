@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: nginxSOT
+  name: nginxsot
   namespace: nginxflux
 spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/himansu88/nginxSOT.git
+  url: https://github.com/himansu88/nginxsot.git

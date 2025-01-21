@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: nginxSOT
+  name: nginxsot
   namespace: nginxflux
 spec:
   interval: 30s
@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: nginxSOT
+    name: nginxsot
   validation: client
